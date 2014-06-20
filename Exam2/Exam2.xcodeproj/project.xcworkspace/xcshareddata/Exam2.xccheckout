@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4040147B-0659-4459-B7EF-D8FF21533051</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Exam2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>672E62E8-FFF3-4ED6-8653-758AF57ACB79</key>
+		<string>https://github.com/asears17/Exam2Git.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Exam2/Exam2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>672E62E8-FFF3-4ED6-8653-758AF57ACB79</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/asears17/Exam2Git.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>672E62E8-FFF3-4ED6-8653-758AF57ACB79</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>672E62E8-FFF3-4ED6-8653-758AF57ACB79</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Exam2Git</string>
+		</dict>
+	</array>
+</dict>
+</plist>

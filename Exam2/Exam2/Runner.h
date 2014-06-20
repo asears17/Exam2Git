@@ -20,11 +20,7 @@ private:
     vector<Runner>entries;
     
 public:
-    Runner(string FirstName, string LastName, int Pace);
-    
-    string find_firstname();//finds the names and pace
-    string find_lastname();
-    int find_pace();
+    Runner(string Name);
     
     
     string get_firstname();//places the names and pace in the files

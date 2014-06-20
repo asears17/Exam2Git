@@ -9,31 +9,37 @@
 #include "Runner.h"
 #include <string>
 #include <fstream>
-Runner::Runner(string FirstName, string LastName, int Pace)
+Runner::Runner(string Name)
 {
-    firstname= FirstName;
-    lastname= LastName;
-    pace= Pace;
-}
-
-string Runner:: find_firstname()
-{
-    ifstream runner(firstname);
+    
+    Name=Name;
+    
+    
+    string filename = "Times.txt.rtf";
+    ifstream runner(filename);
     string line;
-  
-  
-}
+    if (!runner.fail()){
+        while (!runner.eof()) {
+            getline(runner, line);
+            
+            size_t first_comma = line.find(',');
+            size_t second_comma = line.find(',', first_comma + 1);
+            
+            if (first_comma != string::npos && second_comma != string::npos) {
+                string firstname = line.substr(0, first_comma);
+                string lastname = line.substr(first_comma + 2, second_comma - first_comma - 2);
+                string pace = line.substr(second_comma + 2);
+
+            
+            
+        }
+    }
+        runner.close();
     
 }
 
-string Runner:: find_lastname()
-{
-    
 }
-int Runner:: find_pace()
-{
-    
-}
+
 
 
 string Runner:: get_firstname()

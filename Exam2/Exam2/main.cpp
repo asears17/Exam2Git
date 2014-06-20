@@ -22,8 +22,7 @@ int indexOf(const vector<string>& v, string& name)
 
 int main()
 {
-    
-    ifstream input("Times.txt");
+    ifstream input("Times.txt.rtf");
     if (input.fail())
     {
         cout << "File does not exist" << endl;
@@ -31,7 +30,9 @@ int main()
         return 0;
     }
     
-    cout << "enter time" << endl;
+    
+    
+    cout << "enter name" << endl;
 
 
     
